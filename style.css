@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family= Oswald & display=swap') ;
+
+body {
+	background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: auto;
+	padding: auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 50px;	
+	margin: auto;
+    padding-left: 500px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: -50px;
+
+    
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-top: 90px;
+	padding-right: 50px;
+	}
+
+nav li {
+	margin-left: 20px;
+	background-color: #010708;
+
+}
+
+li{
+	padding: 10px;
+	font-family: 'Oswald & display=swap';
+	font-size: 22px;
+	background-color: #010708;
+
+
+}
+
+ li :hover{
+
+	color: red;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+img {
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+}
+
+.texto {
+	flex-basis: 50%;
+	padding-left: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+
+.typewriter h2 {
+    overflow: hidden; /* Esconde o texto */
+    border-right: .15em solid orange; /* Cria o efeito de cursor */
+    white-space: nowrap; /* Impede quebrar linha */
+    letter-spacing: .15em; /* Espaçamento entre letras */
+    animation: typing 3s steps(40, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h3{
+	font-size: 30px;
+	text-align:center;
+	color: red;
+	background-color: #010708;
+	font-family: 'Oswald & display=swap';
+	
+}	
+
